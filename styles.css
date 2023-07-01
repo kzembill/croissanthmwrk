@@ -13,8 +13,9 @@ footer {
     text-align: center;
     word-spacing: 20px;
 }
-@media (max-width: 600px){
-    img {
-        display: block;
-    }
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 30px auto;
 }
